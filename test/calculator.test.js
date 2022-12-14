@@ -19,7 +19,7 @@ describe("Calculator Tests", () => {
         expect(result).toBe(16);
     });
 
-    test("divisão de 2 números", () => {
+    test("Divisão de 2 números", () => {
         var result = mathOperations.divide(24,8)
         expect(result).toBe(3);
     });
